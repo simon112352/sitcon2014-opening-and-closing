@@ -19,9 +19,9 @@ echo
 
 if [ ! -n "$var" ]; then
 
-	echo -e "\t場務組缺少設定檔 場務.conf"
+	echo -e "\t影片組缺少設定檔 影片.conf"
 	sleep 0.5
-	echo -e "\t線路組缺少設定檔 線路.conf"
+	echo -e "\t音樂組缺少設定檔 音樂.conf"
 	sleep 0.5
 
 	exit 1
@@ -50,15 +50,15 @@ sleep 1
 echo
 echo "Project Owner"
 echo ===
-echo - 學生計算機年會
-echo - 中研院 資創中心 自由軟體鑄造場
+echo - 資管碩士幹部群
+echo - 2年級 資訊管理系 國立屏東科技大學
 sleep 0.5
 
 echo
 echo
 echo "Co-owner"
 echo ===
-echo - 教育部 資訊軟體人才培育計畫
+echo - 技術部 資訊軟體人才惡搞計劃
 
 sleep 2
 clear
@@ -68,16 +68,16 @@ echo
 echo "Sponsor"
 echo ===
 sleep 0.5
-echo "- 華禎有限公司"
+echo "- Denny Huang"
 echo ""
 sleep 0.5
-echo "- 祐生研究基金會"
+echo "- ADcarry 黃凱暉"
 echo ""
 sleep 0.5
-echo "- KKTIX 售票亭"
+echo "- sup 謝平原"
 echo ""
 sleep 0.5
-echo "- justfont 就是字"
+echo "- JG 蔡季鋒"
 
 sleep 2
 clear
@@ -90,7 +90,7 @@ done
 
 clear
 
-echo "More info: http://sitcon.org"
+echo "More info: 研究生的日常"
 sleep 0.5
 
 echo
@@ -167,5 +167,3 @@ sleep 2
 echo 喔耶 成功惹 開始吧XD
 sleep 2
 
-cd ../../../slide
-google-chrome index.html
